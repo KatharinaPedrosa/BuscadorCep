@@ -2,7 +2,7 @@
 @page "/"
 
 <div class="form-cep mt-5">
-    <div class="row"><img src="/imagens/logo.svg" class="logo" /></div>
+    <div class="row"><img src="/imagens/logo.svg" class="logo" onerror="this.onerror=null;this.src='../imagens/logo.svg';" /></div>
     <input @bind="@CepInput" class="row form-control mt-2 mx-auto" placeholder="Digite o cep"></input>
     <button @onclick="BuscaCep" class="row btn btn-lg btn-primary btn-block mt-2 mx-auto">Buscar Cep</button>
 </div>
