@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="21.69581mm"
+   height="11.726183mm"
+   viewBox="0 0 21.69581 11.726183"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.5731762"
+     inkscape:cx="-41.627968"
+     inkscape:cy="23.684878"
+     inkscape:window-width="2880"
+     inkscape:window-height="1526"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g26581" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient31450">
+      <stop
+         style="stop-color:#52346e;stop-opacity:1;"
+         offset="0"
+         id="stop31446" />
+      <stop
+         style="stop-color:#7b4ea3;stop-opacity:1"
+         offset="1"
+         id="stop31448" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient31450"
+       id="linearGradient31452"
+       x1="38.804714"
+       y1="57.15052"
+       x2="58.696495"
+       y2="66.740349"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-38.045124,-55.987396)">
+    <g
+       aria-label="CEP"
+       id="text2475"
+       style="font-size:10.5833px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:0.264583">
+      <rect
+         style="fill:url(#linearGradient31452);fill-opacity:1;stroke-width:0.0700042"
+         id="rect26424"
+         width="21.69581"
+         height="11.726183"
+         x="38.045124"
+         y="55.987396"
+         ry="3.3232098" />
+      <g
+         id="g26581"
+         transform="translate(-0.10373629,0.62614221)">
+        <path
+           d="m 45.818675,63.340489 -0.08785,1.188554 q -0.733803,0.175699 -1.446935,0.175699 -1.772496,0 -2.702669,-0.976681 -0.925005,-0.98185 -0.925005,-2.382276 0,-1.452104 0.981849,-2.52697 0.987016,-1.074866 2.702669,-1.074866 0.63045,0 1.193721,0.144693 l -0.180867,1.193722 q -0.60978,-0.19637 -1.167883,-0.19637 -1.049028,0 -1.560624,0.666624 -0.511595,0.661456 -0.511595,1.6123 0,0.971513 0.604613,1.684646 0.60978,0.713132 1.705317,0.713132 0.640785,0 1.395259,-0.222207 z"
+           style="font-weight:bold;font-family:Candara;-inkscape-font-specification:'Candara Bold';fill:#ffffff"
+           id="path26179" />
+        <path
+           d="m 51.286024,63.428338 -0.04134,1.136878 h -4.39765 q 0.06718,-1.560623 0.06718,-3.519154 0,-1.881016 -0.06718,-3.209096 h 4.196113 l -0.05684,1.13171 q -1.550288,-0.08268 -2.811189,-0.08268 0.05168,0.7183 0.05168,1.694982 1.080034,0 2.309929,-0.05684 v 1.080034 q -1.209225,-0.05168 -2.309929,-0.05168 0,1.049028 0.04134,1.963698 1.41593,0 3.017894,-0.08785 z"
+           style="font-weight:bold;font-family:Candara;-inkscape-font-specification:'Candara Bold';fill:#ffffff"
+           id="path26181" />
+        <path
+           d="m 57.337315,59.599127 q 0,1.235063 -0.919838,1.824172 -0.914669,0.589109 -2.247917,0.589109 -0.242879,0 -0.346231,-0.01033 0,0.971514 0.05684,2.563143 H 52.42807 q 0.06718,-1.493444 0.06718,-3.519154 0,-1.860345 -0.06718,-3.209096 h 0.899167 q 0.191202,0 0.733803,-0.0155 0.5426,-0.0155 0.940508,-0.0155 0.981849,0 1.658808,0.444416 0.676959,0.444416 0.676959,1.348751 z m -1.333248,0.284219 q 0,-1.105872 -1.467606,-1.105872 -0.366901,0 -0.775144,0.07751 0.05684,0.976682 0.05684,2.211745 0.129191,0.01033 0.299723,0.01033 1.886183,0 1.886183,-1.193722 z"
+           style="font-weight:bold;font-family:Candara;-inkscape-font-specification:'Candara Bold';fill:#ffffff"
+           id="path26183" />
+      </g>
+    </g>
+  </g>
+</svg>
