@@ -1,48 +1,53 @@
 ﻿@inherits IndexBase
 @page "/"
 
-<div class="form-cep mt-5">
-    <div class="row"><img src="/imagens/logo.svg" class="logo" onerror="this.onerror=null;this.src='https://katharinapedrosa.github.io/BuscadorCep/imagens/logo.svg';" /></div>
-    <input @bind="@CepInput" class="row form-control mt-2 mx-auto" placeholder="Digite o cep"></input>
-    <button @onclick="BuscaCep" class="row btn btn-lg btn-primary btn-block mt-2 mx-auto">Buscar Cep</button>
+    <div class="form-cep mt-5">
+        <div class="jumbotron" style="background-color: #e5e8e8 ">
+            <div class="row"><img src="/imagens/logo.svg" class="logo" onerror="this.onerror=null;this.src='https://katharinapedrosa.github.io/BuscadorCep/imagens/logo.svg';" /></div>
+            <input @bind="@CepInput" class="row form-control mt-2 mx-auto" placeholder="Digite o cep" onkeypress="$(this).mask('00.000-000')"></input>
+            <button @onclick="BuscaCep" class="row btn btn-lg btn-primary btn-block mt-2 mx-auto">Buscar Cep</button>
+        </div>
+    </div>
+
+
+
+    @if (DadosCep != null)
+    {
+        @if (DadosCep.Resultado == "1")
+        {
+
+<div class="w-75 mx-auto">
+        <table class="tabela table-striped">
+            <thead>
+                <tr>
+                    <th scope="col" width="150">Logradouro/Nome</th>
+                    <th scope="col" width="90">Bairro/Distrito</th>
+                    <th scope="col" width="80">Localidade/UF</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>@DadosCep.TipoLogradouro @DadosCep.Logradouro</td>
+                    <td>@DadosCep.Bairro</td>
+                    <td>@DadosCep.Cidade/@DadosCep.Uf</td>
+                </tr>
+            </tbody>
+        </table>
 </div>
+        }
+        else
+        {
+            <div>
+                Cep não encontrado!
+            </div>
+        }
 
 
 
-@if (DadosCep != null)
-{
-    @if (DadosCep.Resultado == "1")
-    {
-        <div class="w-75 mx-auto">
-                <table class="tabela">
-                    <tr>
-                        <th width="150">Logradouro/Nome</th>
-                        <th width="90">Bairro/Distrito</th>
-                        <th width="80">Localidade/UF</th>
-                    </tr>
 
-                    <tr>
-                        <td >@DadosCep.TipoLogradouro @DadosCep.Logradouro</td>
-                        <td>@DadosCep.Bairro</td>
-                        <td>@DadosCep.Cidade/@DadosCep.Uf</td>
-                    </tr>
-
-                </table>                  
-        </div>
-    }
-    else
-    {
-        <div>
-            Cep não encontrado!
-        </div>
     }
 
-
-
-
-}
-
-<footer class="rodape">
-    Equipe: Daniel, Júlia F e Katharina.
-</footer>
+    <footer class="rodape">
+        Equipe: Daniel, Júlia F e Katharina.
+    </footer>
 
